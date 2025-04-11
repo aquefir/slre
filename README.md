@@ -38,7 +38,7 @@ benefit most.
 | `*?`     | Match zero or more times (non-greedy)                     |
 | `?`      | Match zero or once (non-greedy)                           |
 | `x\|y`   | Match x or y (alternation operator)                       |
-| `\meta`  | Match one of the meta character: `^$().[]*+?\|\\`         |
+| `\meta`  | Match one of the meta character: `^$().[]*+?\|\`          |
 | `\xHH`   | Match byte with hex value `0xHH`, e.g. `\x4a`             |
 | `[...]`  | Match any character from set. Ranges like `[a-z]` work    |
 | `[^...]` | Match any character but ones from set                     |
