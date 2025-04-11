@@ -1,23 +1,25 @@
-/*
- * Copyright (C) 2004-2013 Sergey Lyubka <valenok@gmail.com>
- * Copyright (C) 2013 Cesanta Software Limited
- * Copyright (C) 2025 Aquefir Consulting LLC <//aquefir.co/>
- * All rights reserved.
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; version 2.
- *
- * This program is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
- * 02110-1301 USA.
- */
+/**********************************************************************\
+ *                  Super Light Regular Expressions                   *
+ *                                                                    *
+ *               Copyright (C) 2004-2013 Sergey Lyubka.               *
+ *            Copyright (C) 2013 Cesanta Software Limited.            *
+ *             Copyright (C) 2025 Aquefir Consulting LLC.             *
+ *            Released under GNU General Public License v2            *
+ *                                                                    *
+ *   This program is free software;  you can redistribute it and/or   *
+ *   modify it under the terms of the GNU General Public License as   *
+ *       published by the  Free Software Foundation; version 2.       *
+ *                                                                    *
+ *  This program is distributed in  the hope that it will be useful,  *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of   *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU  *
+ *              General Public License for more details.              *
+ *                                                                    *
+ * You should have received a copy of the  GNU General Public License *
+ *    along with this program;  if not, write to the Free Software    *
+ *    Foundation, Inc, 51 Franklin Street, Fifth Floor, Boston, MA    *
+ *                          02110-1301, USA.                          *
+\**********************************************************************/
 
 /*
  * This is a regular expression library that implements a subset of Perl
