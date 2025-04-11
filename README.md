@@ -1,6 +1,6 @@
 # SLRE: Super Light Regular Expressions
 
-SLRE is an ANSI C library that implements a subset of Perl&rsquo;
+SLRE is an ANSI C library that implements a subset of Perl&rsquo;s
 regular expression syntax. The main features of SLRE are:
 
 * Written in strict ANSI C (C89)
@@ -101,7 +101,7 @@ Valid flags are:
 const char * const request = " GET /index.html HTTP/1.0\r\n\r\n";
 struct slre_cap caps[4];
 const int r = slre_match( "^\\s*(\\S+)\\s+(\\S+)\\s+HTTP/(\\d)\\.(\\d)",
-                         request, strlen(request), caps, 4, 0 );
+                          request, strlen(request), caps, 4, 0 );
 
 if( r > 0 )
 {
