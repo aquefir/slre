@@ -1,0 +1,37 @@
+########################################################################
+##                            Hinterlib v2                            ##
+##                                                                    ##
+##             Copyright (C) 2019-2024 Alexander Nicholi.             ##
+##           Copyright (C) 2024-2025 Aquefir Consulting LLC           ##
+##            Released under Artisan Software Licence v1.1            ##
+########################################################################
+
+*.txt text eol=lf
+Makefile text eol=lf
+README text eol=lf
+COPYING text eol=lf
+CONTRIBUTING text eol=lf
+COMPILING text eol=lf
+*.s text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.vala text eol=lf
+*.vapi text eol=lf
+*.pl text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+
+*.s linguist-language=Assembly
+*.c linguist-language=C
+*.h linguist-language=C
+
+*.vala linguist-vendored
+*.vapi linguist-vendored
+*.pl linguist-vendored
+*.py linguist-vendored
+*.sh linguist-vendored
+Makefile linguist-vendored
+doc/** linguist-vendored
+etc/** linguist-vendored
+data/** linguist-vendored
+util/** linguist-vendored
